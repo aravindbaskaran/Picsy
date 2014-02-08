@@ -29,6 +29,17 @@ Secret Note ;) The app has optional offline mode. To use it, just uncomment rele
 2. Import the picsy-cloud project to your Eclipse workspace
 3. Deploy to App engine!
 
+###Deploying to app stores
+
+Mowbly offers a direct-to-use client builder feature. This means Picsy can be generated as OS-specific builds right from the IDE, ready to deploy to individual app stores. 
+
+1. In the IDE, open **MyPicsy.pack** from the project file explorer and click on **Pack**
+2. Click on ***Build***
+3. Upload splash images, icons and signing profiles for each OS and choose OS from Android, iOS, Windows Phone and BB10 to build from
+4. Request a build
+5. Wait for an email to the registered ID with build attached, ready to be published in the app store! :)
+6. Alternatively, you can check the status of the build from the ***Build Status*** menu in the same screen
+
 Find more readme under picsy-mobile and picsy-cloud folders
 
 Happy snapping! :)
