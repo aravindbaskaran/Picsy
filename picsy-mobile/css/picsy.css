@@ -1,0 +1,71 @@
+#picsy-list, .juci_xlist_pane.juci_imageboard_listPane,
+	.juci_xlist_item.juci_imageboard_item,
+	.juci_imageboard_container.juci_image_container,
+	.juci_imageboard_image.juci_image_container,
+	.juci_imageboard .juci_img_middler,
+	.juci_imageboard_image img,
+	.juci_image_overlay,
+	.juci_imageboard_imageContainer,
+	.juci_horizontal_bbar{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    border: 0px;
+    background: transparent;
+}
+.juci_imageboard_listPane{
+	-webkit-column-count: 1;
+}
+.juci_imageboard_item.touch .juci_image_overlay, .juci_image_container.touch .juci_image_overlay{
+	background: transparent;
+}
+.juci_button.refresh,.juci_button.add{
+    margin: 0px;
+    width: 50%;
+    border: 0px;
+    background: transparent;
+}
+.main_bar.juci_horizontal_bbar {
+    background: #B381FF;
+}
+.juci_xlist_item.juci_imageboard_item, .juci_imageboard_image img{
+	border-bottom: 2px solid;
+}
+.juci_display_container {
+    white-space: normal;
+    color: #FFF;
+}
+.juci_subtitle {
+    color: #FAFAFA;
+}
+.juci_imageboard_image img{
+	min-height: 50px;
+}
+.juci_imageboard_titlesContainer {
+    width: 98%;
+    margin: -4px auto 0px;
+}
+.juci_imageboard_item:nth-child(1n), .juci_imageboard_item:nth-child(1n) .juci_imageboard_image img{
+    background: #6FC04A;
+    border-color: #5AAD39;
+}
+.juci_imageboard_item:nth-child(2n), .juci_imageboard_item:nth-child(2n) .juci_imageboard_image img{
+    background: #585FAD;
+    border-color: #454C9A;
+}
+.juci_imageboard_item:nth-child(3n), .juci_imageboard_item:nth-child(3n) .juci_imageboard_image img{
+    background: #F6C604;
+    border-color: #E1B200;
+}
+.juci_imageboard_item:nth-child(4n), .juci_imageboard_item:nth-child(4n) .juci_imageboard_image img{
+    background: #EA252E;
+    border-color: #A81B24;
+}
+.juci_imageboard_item:nth-child(5n), .juci_imageboard_item:nth-child(5n) .juci_imageboard_image img{
+    background: #000;
+    border-color: #333;
+}
+.juci_imageboard_item:nth-child(5n), .juci_imageboard_item:nth-child(5n) .juci_imageboard_image img{
+    background: #B381FF;
+    border-color: #A061FF;
+}

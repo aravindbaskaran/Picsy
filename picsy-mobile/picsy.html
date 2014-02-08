@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../../../system/libs/mowbly/themes/default/css/default.css" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="css/picsy.css"></link>
+		<!-- Add your stylesheets here -->
+		<script src="../../../system/libs/mowbly/js/mowbly.js"></script>
+		<script src="../../../system/libs/mowbly/js/juci-0.2.js"></script>
+		<!-- Add your scripts here -->
+		<script src="scripts/prettydate.js"></script>
+		<script src="scripts/picsy.js"></script>
+	</head>
+	<body>
+		<div data-juci="panel" data-first-panel>
+			<!-- Enter your HTML content here -->
+			<div class="juci_horizontal_bbar main_bar">
+				<button data-juci="button" class="add" onclick="addPic()">Add</button>
+				<button data-juci="button" class="refresh" onclick="readFromCloud()">Refresh</button>
+			</div>
+			<div data-juci="imageboard" id="picsy-list" data-bind="ref: pics" data-title="desc" data-subtitles="by, humaneDate(new Date(createdOn))" data-img="photo" onafterchange="writeToFile()" onsubmit="uploadToCloud(event)" onlistitemclick="openPhoto(event)">
+				<!-- <div data-juci="listitem"></div> -->
+				<div data-juci="listcontent">
+					<div data-juci="photo" data-label="Show me" data-bind="ref: photo" data-photo-options="width: 1024, height: 'auto'"></div>
+					<div data-juci="text" data-label="Tell me" data-bind="ref: desc"></div>
+					<div data-juci="text" data-label="Who" data-bind="ref: by" placeholder data-trigger></div>
+					<div class="juci_horizontal_bbar">
+						<button data-juci="button" type="submit">Okay</button>
+						<button data-juci="button" type="reset">Nope</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
