@@ -15,7 +15,7 @@ How to deploy
 
 1. Create a free dev account at http://wwww.mowbly.com and import the picsy-mobile project as a zip to the Mowbly Cloud IDE
 2. Change the _url variable in **picsy.js** to your app engine url hosting the services from picsy-cloud project
-3. Open **MyPicsy.pack** from the project file explorer and click on **Pack**
+3. Open **MyPicsy.pack** from the project file explorer and click on ***Pack***
 4. Download **Mowbly** app from app store on any mobile OS(Android, iOS, Windows Phone, BB10)
 5. Login with your account on the mobile to view the **MyPicsy** on your mobile!
 
