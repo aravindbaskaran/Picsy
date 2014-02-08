@@ -21,7 +21,7 @@ How to deploy
 
 Note: You can also view the app as a webapp by going to http://wwww.mowbly.com/webapp :)
 
-Secret Note ;) The app has optional saving offline code. To use it, just uncomment relevant code
+Secret Note ;) The app has optional offline mode. To use it, just uncomment relevant code.
 
 ###GAE
 
