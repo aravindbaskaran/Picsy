@@ -40,6 +40,5 @@ Mowbly offers a direct-to-use client builder feature. This means Picsy can be ge
 5. Wait for an email to the registered ID with build attached, ready to be published in the app store! :)
 6. Alternatively, you can check the status of the build from the ***Build Status*** menu in the same screen
 
-Find more readme under picsy-mobile and picsy-cloud folders
 
 Happy snapping! :)
