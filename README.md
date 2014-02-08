@@ -5,7 +5,7 @@ A clean private photo-sharing app for sharing photos among friends!
 
 Cross platform mobile app developed using Mowbly(http://www.mowbly.com) and cloud services running out of a google app engine app
 
-Developed as part of a workshop conducted at PEC (www.pec.edu) with the 3rd year CSE students on 7-8 February 2014.
+Developed as part of a workshop conducted at Pondicherry Engineering College (www.pec.edu) with the 3rd year CSE students on 7-8 February 2014.
 
 
 How to deploy
