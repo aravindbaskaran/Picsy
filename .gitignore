@@ -1,1 +1,3 @@
 *.class
+.gitsecret/keys/random_seed
+privatekeys.md
